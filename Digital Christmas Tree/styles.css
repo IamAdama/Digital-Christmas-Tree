@@ -1,0 +1,100 @@
+/* .tree{
+    width: 45%;
+}
+.wrapper{
+    text-align: center;
+} */
+ 
+
+.wrapper{
+    /* border: solid red; */
+    position: relative;
+    height: 720px;
+}
+
+.greetings{
+    color: #FFE606;
+    font-family: 'Redressed';
+    position: absolute;
+    top: 30px;
+    text-align: center;
+
+}
+
+h1{
+    width: 500x;
+    position: relative;
+    left: 60px;
+    top: 0px;
+}
+
+p{ 
+    width: 250px;
+     position: absolute;
+    left: 60px;
+    top: 45px;
+
+}
+
+p.directions{
+    color: white;
+    font-size: 20px;
+    word-break: normal;
+}
+
+.window-items{
+    position: relative;
+    margin-left: 470px;
+    /* border: solid grey; */
+}
+
+#window{
+    width: 360px;
+    background-image: url(img/snow.gif);
+    background-size: cover;
+}
+
+.christmas-tree-items{
+    position: absolute;
+    /* border: solid blue;  */
+    margin-left: 375px;
+    top: 165px;
+    width: 550px;;
+    height: 550px;
+}
+
+#tree{
+    width: 375px;
+    position: absolute;
+    bottom: 15px;
+    margin: auto 85px;
+} 
+
+#angel-top{
+    width: 70px;
+    position: absolute;
+    margin: auto 240px;
+}
+
+#red-present{
+    width: 230px;
+    position: absolute;
+    bottom: 0%;
+    bottom: 0px;
+    margin: auto 105px;
+}
+
+#white-present{
+    width: 200px;
+    position: absolute;
+    bottom: 0%;
+    bottom: 0px;
+    margin: auto 285px;
+}
+
+#star1{
+    width: 50px;
+    height: 75px;
+    position: absolute;
+    margin: 100px 250px;
+}
