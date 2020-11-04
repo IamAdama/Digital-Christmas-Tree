@@ -169,3 +169,19 @@ p.directions{
     position: absolute;
     margin: 310px 200px;
 }
+
+.wrapper{
+    /* border: solid red; */
+    width: 600px;
+    height: 720px;    
+    position: absolute;
+    background-color:mediumpurple;
+    margin-left: 28%;
+    border-radius: 50%;
+
+
+    box-shadow: 
+    0px 0px 40px 20px mediumpurple,
+    0px 0px 90px 60px #FFE606;
+  
+}
