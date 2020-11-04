@@ -18,19 +18,19 @@
     position: absolute;
     top: 30px;
     text-align: center;
-
 }
 
 h1{
-    width: 500x;
+    width: 900x;
     position: relative;
     left: 60px;
     top: 0px;
+    font-size: 16px;
 }
 
 p{ 
     width: 250px;
-     position: absolute;
+    position: absolute;
     left: 60px;
     top: 45px;
 
@@ -92,14 +92,21 @@ p.directions{
     margin: auto 285px;
 }
 
-#star{
+#star1{
     width: 50px;
-    height: 75px;
+    height: 60px;
     position: absolute;
     margin: 100px 250px;
 }
 
-#star2{
+#star2 {
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    margin: 247px 295px;
+}
+
+#star3{
     width: 50px;
     height: 45px;
     position: absolute;
@@ -111,17 +118,15 @@ p.directions{
     width: 120px;
     height: 110px;
     position: absolute;
-    margin: 300px 300px;
+    margin: 310px 310px;
 }
 
 #stripe_ornament{
-    width: 90x;
-    height: 70px;
+    width: 50x;
+    height: 50px;
     position: absolute;
-    margin: 320px 272px;
+    margin: 300px 300px;
 }
-
-
 
 #purple1 {
     width: 70px;
@@ -153,7 +158,14 @@ p.directions{
 
 #purple2 {
     width: 70px;
-    height: 75px;
+    height: 70px;
     position: absolute;
-    margin: 300px 252px;
+    margin: 320px 252px;
+}
+
+#matt-gold {
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    margin: 310px 200px;
 }
