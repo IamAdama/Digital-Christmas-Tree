@@ -6,12 +6,6 @@
 } */
  
 
-.wrapper{
-    /* border: solid red; */
-    position: relative;
-    height: 720px;
-}
-
 .greetings{
     color: #FFE606;
     font-family: 'Redressed';
@@ -173,7 +167,8 @@ p.directions{
 .wrapper{
     /* border: solid red; */
     width: 600px;
-    height: 720px;    
+    height: 720px;  
+    
     position: absolute;
     background-color:mediumpurple;
     margin-left: 28%;
