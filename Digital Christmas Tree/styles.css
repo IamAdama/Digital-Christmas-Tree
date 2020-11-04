@@ -94,14 +94,42 @@ p.directions{
 
 #star1{
     width: 50px;
-    height: 75px;
+    height: 60px;
     position: absolute;
     margin: 100px 250px;
 }
 
 #purple1 {
     width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 150px 205px;
+}
+
+#gold1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 150px 250px;
+}
+
+#goldPurple {
+    width: 37px;
+    height: 47px;
+    position: absolute;
+    margin: 220px 250px;
+}
+
+#virgin-mary {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 210px 155px;
+}
+
+#purple2 {
+    width: 70px;
     height: 75px;
     position: absolute;
-    margin: 115px 250px;
+    margin: 300px 252px;
 }
