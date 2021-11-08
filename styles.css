@@ -1,0 +1,264 @@
+
+.greetings{
+    color: #FFE606;
+    font-family: 'Redressed';
+    position: absolute;
+    top: 30px;
+    text-align: center;
+}
+
+h1{
+    
+    position: relative;
+    left: 60px;
+    top: 0px;
+    font-size: 16px;
+}
+
+p{ 
+    width: 350px;
+    position: absolute;
+    left: 5px;
+    top: 45px;
+}
+
+p.directions{
+    color: white;
+    font-size: 25px;
+    word-break: normal;
+}
+
+.window-items{
+    position: relative;
+    margin-left: 470px;
+}
+
+#window{
+    width: 360px;
+    background-image: url(img/snow.gif);
+    background-size: cover;
+}
+
+.christmas-tree-items{
+    position: absolute;
+    margin-left: 375px;
+    top: 165px;
+    width: 550px;;
+    height: 550px;
+}
+
+#tree{
+    width: 375px;
+    position: absolute;
+    bottom: 15px;
+    margin: auto 85px;
+} 
+
+#angel-top{
+    width: 70px;
+    position: absolute;
+    margin: auto 240px;
+}
+
+#red-present{
+    width: 230px;
+    position: absolute;
+    bottom: 0%;
+    bottom: 0px;
+    margin: auto 105px;
+}
+
+#white-present{
+    width: 200px;
+    position: absolute;
+    bottom: 0%;
+    bottom: 10px;
+    margin: auto 270px;
+}
+
+#star1{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    margin: 100px 250px;
+}
+
+#star2 {
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    margin: 247px 295px;
+}
+
+#star3{
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    margin: 375px 190px;
+}
+
+#baby{
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    margin: 310px 310px;
+}
+
+#stripe_ornament{
+    width: 50x;
+    height: 50px;
+    position: absolute;
+    margin: 300px 300px;
+}
+
+#purple1 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 150px 205px;
+}
+
+#gold1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 150px 250px;
+}
+
+#goldPurple {
+    width: 37px;
+    height: 47px;
+    position: absolute;
+    margin: 220px 250px;
+}
+
+#virgin-mary {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 210px 155px;
+}
+
+#purple2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 320px 252px;
+}
+
+#matt-gold {
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    margin: 310px 200px;
+}
+
+.halo{
+    width: 600px;
+    height: 720px;  
+    
+    position: absolute;
+    background-color:mediumpurple;
+    margin-left: 28%;
+    border-radius: 50%;
+
+
+    box-shadow: 
+    0px 0px 40px 20px mediumpurple,
+    0px 0px 90px 60px #FFE606;
+  
+}
+
+
+/*Mobile*/
+@media(max-width:500px){
+
+    .halo{
+        width: 560px;
+        height: 750px; 
+        margin-left: 20px;
+        
+        box-shadow: 
+         0px 0px 40px 20px mediumpurple,
+         0px 0px 90px 40px #FFE606;
+  
+    }
+    .title{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+
+    p.directions{
+        position: absolute;
+        padding-top: 30px;
+        margin-left: 30px;
+        width: 290px;
+        font-size: 30px;
+    }
+
+    .window-items{
+        position: relative;
+        margin-left: 140px;
+        
+    }
+    .christmas-tree-items{
+        position: absolute;
+        margin-left: 45px; 
+        margin-top: 65px;
+    }
+
+}
+
+/*Tablet and Above*/
+ @media(max-width: 1024px) and (min-width: 501px){
+    .wrapper {
+        width: 600px;
+        height: 720px;  
+        margin-left: 84px;
+        margin-right: 84px;
+    }
+
+    .greetings{
+        position: relative;
+        height: 108px;
+        width: 360px;
+        padding-top: 90px;
+    }
+
+    h1.title {
+        width: 340px;
+        position: relative;
+        top: 5px;
+        margin-left: -40px;
+    }
+
+    p.directions{
+        font-size: 27px;
+        padding-top: 100px;
+        position: absolute;
+        width: 340px;
+        margin-left: 5px;
+    }
+
+    .window-items{
+        position: relative;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: -70px;
+    }
+   
+    .halo {
+        margin-left: 84px;
+        margin-right: 84px;
+        top: 50px;
+    }
+
+    .christmas-tree-items{
+        position: relative;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: -330px;
+    } 
+    
+} 
